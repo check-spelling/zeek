@@ -35,8 +35,8 @@ type DNP3_Request = record {
 		FREEZE_AT_TIME_NR -> freeze_time_nr_requests: Request_Objects(app_header.function_code)[];
 		COLD_RESTART -> cold_restart: empty;
 		WARM_RESTART -> warm_restart: empty;
-		INITIALIZE_DATA -> initilize_data: empty;  # obsolete
-		INITIALIZE_APPL -> initilize_appl: Request_Objects(app_header.function_code)[];
+		INITIALIZE_DATA -> initialize_data: empty;  # obsolete
+		INITIALIZE_APPL -> initialize_appl: Request_Objects(app_header.function_code)[];
 		START_APPL -> start_appl: Request_Objects(app_header.function_code)[];
 		STOP_APPL -> stop_appl: Request_Objects(app_header.function_code)[];
 		SAVE_CONFIG -> save_config: empty;  # deprecated
