@@ -2541,7 +2541,7 @@ export {
 		preattr: wcc_attr_t &optional;	##< Pre operation attributes.
 		postattr: fattr_t &optional;	##< Post operation attributes.
 		size: count &optional;	##< Size.
-		commited: stable_how_t &optional;	##< TODO.
+		committed: stable_how_t &optional;	##< TODO.
 		verf: count &optional;	##< Write verifier cookie.
 	};
 
