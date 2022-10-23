@@ -849,18 +849,18 @@ export {
 		["367abb81-9844-35f1-ad32-98f038001003",0x36] = "ScOpenServiceStatusHandle",
 
 		# browser
-		["6bffd098-a112-3610-9833-012892020162",0x00] = "BrowserrServerEnum",
-		["6bffd098-a112-3610-9833-012892020162",0x01] = "BrowserrDebugCall",
-		["6bffd098-a112-3610-9833-012892020162",0x02] = "BrowserrQueryOtherDomains",
-		["6bffd098-a112-3610-9833-012892020162",0x03] = "BrowserrResetNetlogonState",
-		["6bffd098-a112-3610-9833-012892020162",0x04] = "BrowserrDebugTrace",
-		["6bffd098-a112-3610-9833-012892020162",0x05] = "BrowserrQueryStatistics",
-		["6bffd098-a112-3610-9833-012892020162",0x06] = "BrowserrResetStatistics",
+		["6bffd098-a112-3610-9833-012892020162",0x00] = "BrowserServerEnum",
+		["6bffd098-a112-3610-9833-012892020162",0x01] = "BrowserDebugCall",
+		["6bffd098-a112-3610-9833-012892020162",0x02] = "BrowserQueryOtherDomains",
+		["6bffd098-a112-3610-9833-012892020162",0x03] = "BrowserResetNetlogonState",
+		["6bffd098-a112-3610-9833-012892020162",0x04] = "BrowserDebugTrace",
+		["6bffd098-a112-3610-9833-012892020162",0x05] = "BrowserQueryStatistics",
+		["6bffd098-a112-3610-9833-012892020162",0x06] = "BrowserResetStatistics",
 		["6bffd098-a112-3610-9833-012892020162",0x07] = "NetrBrowserStatisticsClear",
 		["6bffd098-a112-3610-9833-012892020162",0x08] = "NetrBrowserStatisticsGet",
-		["6bffd098-a112-3610-9833-012892020162",0x09] = "BrowserrSetNetlogonState",
-		["6bffd098-a112-3610-9833-012892020162",0x0a] = "BrowserrQueryEmulatedDomains",
-		["6bffd098-a112-3610-9833-012892020162",0x0b] = "BrowserrServerEnumEx",
+		["6bffd098-a112-3610-9833-012892020162",0x09] = "BrowserSetNetlogonState",
+		["6bffd098-a112-3610-9833-012892020162",0x0a] = "BrowserQueryEmulatedDomains",
+		["6bffd098-a112-3610-9833-012892020162",0x0b] = "BrowserServerEnumEx",
 
 		# AudioSrv
 		["3faf4738-3a21-4307-b46c-fdda9bb8c0d5",0x00] = "gfxCreateZoneFactoriesList",
