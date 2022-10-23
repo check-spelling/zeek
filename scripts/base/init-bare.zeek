@@ -3948,7 +3948,7 @@ type dns_binds_rr: record {
 	algorithm: count;	##< Algorithm for Public Key.
 	key_id: count;		##< key tag.
 	removal_flag: count;	##< rm flag.
-	complte_flag: string;	##< complete flag.
+	complete_flag: string;	##< complete flag.
 	is_query: count;	##< The RR is a query/Response.
 };
 
