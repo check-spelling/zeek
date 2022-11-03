@@ -50,7 +50,7 @@ namespace analyzer
  *
  * The manager maintains a registry of all available protocol analyzers,
  * including a mapping between their textual names and Tag. It
- * instantantiates new analyzers on demand. For new connections, the manager
+ * instantiates new analyzers on demand. For new connections, the manager
  * sets up their initial analyzer tree, including adding the right \c PIA,
  * respecting well-known ports, and tracking any analyzers specifically
  * scheduled for individual connections.
