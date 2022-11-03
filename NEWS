@@ -580,7 +580,7 @@ Breaking Changes
   the SSLv2 dpd signature, you can load the signature from `policy/protocols/ssl/dpd-v2.sig`
 
   The DPD signature for SSL version 3 and up (including TLS 1.0 and above) now matches
-  for one-sided connections and does not require a reverst match anymore. This prevents
+  for one-sided connections and does not require a reverse match anymore. This prevents
   missed handshakes, where the client handshake contains a lot of data.
 
 New Functionality
