@@ -171,7 +171,7 @@ void TCP_Reassembler::Undelivered(uint64_t up_to_seq)
 		// first packet we saw instantiating the partial connection
 		// was a keep-alive.  So, in either case, just ignore it.
 
-		// TODO: Don't we need to update last_reassm_seq ????
+		// TODO: Don't we need to update last_reassem_seq ????
 		return;
 		}
 
@@ -187,7 +187,7 @@ void TCP_Reassembler::Undelivered(uint64_t up_to_seq)
 
 	if ( DEBUG_tcp_contents )
 		{
-		DEBUG_MSG("%.6f Undelivered: IsOrig()=%d up_to_seq=%" PRIu64 ", last_reassm=%" PRIu64 ", "
+		DEBUG_MSG("%.6f Undelivered: IsOrig()=%d up_to_seq=%" PRIu64 ", last_reassem=%" PRIu64 ", "
 		          "endp: FIN_cnt=%d, RST_cnt=%d, "
 		          "peer: FIN_cnt=%d, RST_cnt=%d\n",
 		          zeek::run_state::network_time, IsOrig(), up_to_seq, last_reassem_seq,
