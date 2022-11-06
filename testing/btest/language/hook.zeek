@@ -33,7 +33,7 @@ hook myhook(r: rec) &priority=10
 	print "myhook, &priority=10", r;
 	# modifications to the record argument will be seen by remaining handlers.
 	r$a = 37;
-	r$b = "goobye world";
+	r$b = "goodbye world";
 	# returning from the handler early, is fine, remaining handlers still run.
 	return;
 	print "ERROR: return statement should return from hook handler body";
